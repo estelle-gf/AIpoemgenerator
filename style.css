@@ -2,18 +2,18 @@ body {color: rgb(237, 121, 38);
     background-color: rgb(238, 163, 136);}
 strong {font: weight 100px;color: rgb(255, 128, 0);}
 
-h1 {font-size: 100px;
+h1 {font-size: 8;
 
     color: rgb(255, 128, 0);
     text-align: center;
-    text-decoration: underline;}
-h2 {font-size: 50px;
+   }
+h2 {font-size: 30px;
   
     color: rgb(255, 128, 0);
     text-align: center;
-    text-decoration: underline;}
+   }
 p {font-size: 20px;
     
     color: rgb(255, 128, 0);
     text-align: center;
-    text-decoration: underline;}
+    }
