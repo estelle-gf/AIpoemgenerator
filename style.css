@@ -17,3 +17,9 @@ p {font-size: 20px;
     color: rgb(255, 128, 0);
     text-align: center;
     }
+.submit {padding: 10px 50px;
+    border-radius: 5px;
+    border: none;
+    font-size: 25px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s;}
