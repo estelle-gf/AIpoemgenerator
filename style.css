@@ -1,7 +1,7 @@
 body {
 margin: 120px auto; max-width: 800px;
     background-color: rgb(238, 163, 136);}
-
+.poemBox {text-align:center;}
 .highlight {font-weight:600;
     font-size:30px;
     color:rgb(255, 128, 0);
@@ -15,7 +15,7 @@ margin: 120px auto; max-width: 800px;
     margin: 20px auto;
     width: 80%;}
 
-h1 {font-size: 8;
+h1 {font-size: 20px;
     color: rgb(57, 30, 2); animation-name:slideDown;
     animation-duration: 4s;
 }
@@ -24,7 +24,7 @@ h1 {font-size: 8;
     to {transform: translateY(0);}
 
    }
-h2 {font-size: 20px;
+h2#poem {font-size: 20px;
   background-color: rgba(241, 218, 181, 0.2);
     padding: 10px 10px 80px 10px;
     border-radius: 10px;
