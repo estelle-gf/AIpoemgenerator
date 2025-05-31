@@ -1,5 +1,5 @@
 body {
-text-align: center;
+margin: 120px auto; max-width: 800px;
     background-color: rgb(238, 163, 136);}
 
 .highlight {font-weight:600;
@@ -13,14 +13,21 @@ text-align: center;
      padding-bottom: 50px;
     background-color: rgb(238, 163, 136);
     margin: 20px auto;
-    width: 80%;
-}
+    width: 80%;}
+
 h1 {font-size: 8;
-    color: rgb(57, 30, 2);
+    color: rgb(57, 30, 2); animation-name:slideDown;
+    animation-duration: 4s;
+}
+@keyframes slideDown {
+    from {transform: translateY(-500px);}
+    to {transform: translateY(0);}
 
    }
-h2 {font-size: 30px;
-  
+h2 {font-size: 20px;
+  background-color: rgba(241, 218, 181, 0.2);
+    padding: 10px 10px 80px 10px;
+    border-radius: 10px;
     color: rgb(248, 106, 4);
 
    }
