@@ -7,8 +7,8 @@
    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script> <link rel="stylesheet" href="style.css"><script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>Think Positively</title>
     <div class="background">
-
-
+</head>
+<body>
 <span class="T1">T</span>
 <span class="h">h</span>
 <span class="i1">i</span>
@@ -25,8 +25,8 @@
 </div>
     <h1> Welcome to the <span class="highlight">positive affirmations poem </span> generator</h1>
 
-</head>
-<body>
+
+
     <main>
         <form id="poem-generator-form">
             <input type="text" class="topic"
@@ -36,10 +36,14 @@
             required />
             <input class="submit" id="instruction-input"
             type="submit"/>
+            </form>
+            <br/>
+            <small>Topic examples: rose, sunshine, happiness </small>
         </form>
-        <div class="poem">
-            <h2 id="poem"> *your poem will appear here* </h2>
-            <p class="poem-text"></p>   
+        <div id="poem" class="poem hidden">
+            <p id="poemOutput"> </p>
+          </div>
+            
     </main>
   <script src="script.js"> </script>
 <footer> This AI project was coded by <a href="https://github.com/estelle-gf" target="_blank">Estelle George-Fontaine </a> open-sourced on <a href="https://github.com/estelle-gf/AIpoemgenerator" target="_blank">Github</a> and hosted on <a href="https://ai-positive-poems.netlify.app/" target="_blank">Netlify.</a> </footer>
