@@ -24,9 +24,9 @@ h1 {font-size: 20px;
     to {transform: translateY(0);}
 
    }
-.poem {font-size: 20px;
+.poem {font-size: 20px !important;
   background-color: rgba(241, 218, 181, 0.2);
-    padding: 10px 10px 80px 10px;
+    padding: 5px;
     border-radius: 10px;
     color: rgb(228, 99, 7);   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 
@@ -54,7 +54,7 @@ transition: transform 0.2s;}
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.8);
   transform: translateY(-5px);}
 
-.topic { padding: 5px 80px;
+.topic { padding: 5px 5px;
     border-radius: 5px;
     border: none;
     font-size: 25px;
@@ -123,7 +123,7 @@ transform: translate(-14px, 60px) rotate(25deg);
 transform: translate(-20px, 80px) rotate(30deg);
 }
 
-.blink {
+.generating {
 animation: blink 1s step-start 0s infinite;
 }
 @keyframes blink {50% {opacity: 0.0;}}
